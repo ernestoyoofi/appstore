@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ernestoyoofi - Store App</title>
+  <link href="./main.css" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+</head>
+<body>
+  <div class="response">
+    <div class="list-app" style="display: block;">
+      <div class="search-bar">
+        <input type="search" name="search-query" placeholder="Search App..."/>
+      </div>
+      <div class="list-item"></div>
+    </div>
+    <div class="detail-app" style="display: none;">
+      <header>
+        <button id="closeapp"><i class="fa-solid fa-arrow-left"></i></button>
+        <!-- <b>Details</b> -->
+      </header>
+      <div id="appcontent"></div>
+    </div>
+    <div class="bottomsheet-app" style="display: none;">
+      <div class="block-bottomsheet">
+        <div class="view-content">
+          <header>
+            <button id="backtimesheet"><i class="fa-solid fa-arrow-left"></i></button>
+            <b></b>
+          </header>
+          <div class="content-item"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
